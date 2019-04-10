@@ -16,7 +16,7 @@
 .circle {
     fill: none;
     stroke: rgb(3, 97, 8);
-    stroke-width: 9;
+    stroke-width: 12;
     stroke-miterlimit: 10;
 }
 
@@ -46,7 +46,7 @@
 
 .second-arm {
     fill: none;
-    stroke: #000;
+    stroke: rgb(209, 0, 0);
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
@@ -61,6 +61,6 @@
 #hour,
 #minute,
 #second {
-    transform-origin: 300px 300px;
-    transition: transform .5s ease-in-out;
+    transform-origin: 300px 300px;}
+    /*transition: transform .5s ease-in-out;
 }
