@@ -45,6 +45,6 @@ $(document).ready(function(){
         var searchTerm = $('#searchTerm').val();
         console.log(searchTerm);
         doAjaxCall(searchTerm);
-    })
+    });
 })
 
